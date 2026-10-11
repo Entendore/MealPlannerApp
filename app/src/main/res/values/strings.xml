@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Meal Planner</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="undo">Undo</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="filter_all">All</string>
+    <string name="diet_filter_all">Any diet</string>
+    <string name="minutes_total">%1$d min</string>
+    <string name="search_hint">Name or ingredient</string>
+    <string name="search_recipes">Search recipes</string>
+
+    <!-- Recipe list -->
+    <string name="screen_recipes">My Recipes</string>
+    <string name="add_recipe">Add recipe</string>
+    <string name="export_data">Export data</string>
+    <string name="import_data">Import backup</string>
+    <string name="empty_recipes">No recipes yet.\nTap + to create your first one!</string>
+    <string name="empty_recipes_title">Start your cookbook</string>
+    <string name="no_results_title">No results</string>
+    <string name="empty_search">No matches for “%1$s”</string>
+    <string name="favorites">Favorites</string>
+    <string name="toggle_favorite">Toggle favorite</string>
+    <string name="toggle_layout">Toggle layout</string>
+    <string name="show_all">Show all</string>
+    <string name="no_safe_recipes_title">Nothing matches</string>
+    <string name="no_safe_recipes_message">Every recipe contains one of your allergens. Turn off hiding to see them.</string>
+    <string name="hide_allergen_recipes">Hide recipes containing my allergens</string>
+
+    <!-- Recipe detail -->
+    <string name="add_to_meal_plan">Add to Meal Plan</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="no_ingredients">No ingredients added.</string>
+    <string name="no_instructions">No instructions yet.</string>
+    <string name="recipe_photo">Recipe photo</string>
+    <string name="delete_recipe_title">Delete recipe?</string>
+    <string name="delete_recipe_message">“%1$s” and its planned meals will be removed.</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="recipe_duplicated">Duplicate created</string>
+    <string name="tags">Tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="cook_mode">Cook mode</string>
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="start_timer">Start %1$s timer</string>
+    <string name="timer_done">Time’s up!</string>
+    <string name="adjust_servings">Adjust servings</string>
+    <string name="increase_servings">More servings</string>
+    <string name="decrease_servings">Fewer servings</string>
+    <string name="contains_tags">Contains: %1$s</string>
+    <string name="diets_tags">Diets: %1$s</string>
+    <string name="allergy_clash_title">Allergy warning</string>
+    <string name="allergy_clash_contains">Contains %1$s</string>
+    <string name="diet_clash_title">Diet mismatch</string>
+    <string name="diet_clash_missing">Doesn’t fit your diet: %1$s</string>
+
+    <!-- Plan meal dialog -->
+    <string name="plan_meal_title">Plan this meal</string>
+    <string name="day">Day</string>
+    <string name="meal">Meal</string>
+    <string name="servings">Servings</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="add_to_plan">Add to plan</string>
+    <string name="repeat_on">Also plan on</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+
+    <!-- Recipe editor -->
+    <string name="new_recipe">New Recipe</string>
+    <string name="edit_recipe">Edit Recipe</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="category">Category</string>
+    <string name="prep_minutes">Prep (min)</string>
+    <string name="cook_minutes">Cook (min)</string>
+    <string name="add_photo">Add photo</string>
+    <string name="change_photo">Change photo</string>
+    <string name="remove_photo">Remove photo</string>
+    <string name="add_ingredient">Add ingredient</string>
+    <string name="remove_ingredient">Remove ingredient</string>
+    <string name="qty">Qty</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="unit">Unit</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="error_name_required">Please give the recipe a name.</string>
+    <string name="section_details">Details</string>
+    <string name="instructions_hint">One step per line</string>
+    <string name="adapted_for">Adapted for</string>
+    <string name="adapted_for_hint">e.g. “nut-free for Sam”, “dairy-free version”</string>
+    <string name="dietary_info">Dietary info</string>
+    <string name="add_allergen">Add</string>
+    <string name="add_allergen_title">Add allergen</string>
+    <string name="discard_changes_title">Discard changes?</string>
+    <string name="discard_changes_message">Your edits to this recipe haven’t been saved.</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+
+    <!-- Planner -->
+    <string name="screen_planner">Meal Planner</string>
+    <string name="shopping_list">Shopping list</string>
+    <string name="previous_week">Previous week</string>
+    <string name="next_week">Next week</string>
+    <string name="nothing_planned">Nothing planned</string>
+    <string name="remove_from_plan">Remove from plan</string>
+    <string name="add_meal_to">Add to %1$s</string>
+    <string name="choose_recipe">Choose a recipe</string>
+    <string name="no_recipes_yet">You have no recipes yet. Create one on the Recipes tab first.</string>
+    <string name="copy_week">Copy week</string>
+    <string name="copy_week_title">Copy this week’s plan</string>
+    <string name="copy_week_hint">Copies every planned meal to the selected week.</string>
+    <string name="copy_week_to">To %1$s</string>
+    <string name="replace_existing">Replace existing meals in the target week</string>
+    <string name="copy_week_confirm">Copy</string>
+    <string name="copy_week_done">Copied %1$d meals</string>
+    <string name="meal_removed">Meal removed</string>
+    <string name="mark_cooked">Mark as cooked</string>
+    <string name="cooked">Cooked</string>
+    <string name="this_week_planned">This week: %1$s planned</string>
+    <string name="budget_screen">Budget</string>
+
+    <!-- integration fix: referenced by the month toggle, defined here -->
+    <string name="view_week">Week</string>
+    <string name="view_month">Month</string>
+
+    <!-- Shopping list -->
+    <string name="shopping_list_title">Shopping List — %1$s</string>
+    <string name="empty_shopping_list">Nothing planned for this day yet.</string>
+    <string name="scope_day">Day</string>
+    <string name="scope_week">Week</string>
+    <string name="estimated_total">Estimated total</string>
+    <string name="actual_total">Actual total</string>
+    <string name="actual_price_hint">Actual price (optional)</string>
+    <string name="enter_actual_price">Actual price for “%1$s”</string>
+
+    <!-- Budget -->
+    <string name="budget">Budget</string>
+    <string name="set_budget">Set budget</string>
+    <string name="edit_budget">Edit budget</string>
+    <string name="clear_budget">Clear budget</string>
+    <string name="budget_hint">Planned spend for this day</string>
+    <string name="budget_used">%1$s of %2$s</string>
+    <string name="budget_remaining">%1$s left</string>
+    <string name="budget_over">%1$s over budget</string>
+    <string name="estimated_cost">Est. %1$s</string>
+    <string name="cost_total">%1$s</string>
+    <string name="cost_per_serving">≈ %1$s / serving</string>
+    <string name="ingredient_cost">Cost</string>
+    <string name="monthly_budget">Monthly budget</string>
+    <string name="planned_total">Planned: %1$s</string>
+    <string name="actual_month">Actual: %1$s</string>
+    <string name="no_budget_data">No planned meals or purchases this month.</string>
+
+    <!-- Water -->
+    <string name="water_title">Water</string>
+    <string name="water_glasses">%1$d of %2$d glasses</string>
+
+    <!-- Today -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="meals_today">Meals today</string>
+    <string name="quick_add_recipe">New recipe</string>
+    <string name="quick_scan">Scan</string>
+    <string name="quick_shopping">Shopping</string>
+    <string name="quick_insights">Insights</string>
+    <string name="go_to_planner">Plan</string>
+
+    <!-- Insights -->
+    <string name="insights">Insights</string>
+    <string name="top_planned">Most planned</string>
+    <string name="planned_cost_weeks">Planned cost · last 8 weeks</string>
+    <string name="actual_spend_months">Actual spend · last 6 months</string>
+    <string name="cookbook_breakdown">Your cookbook</string>
+    <string name="no_data_yet">Not enough data yet — plan some meals first.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Diet &amp; Allergies</string>
+    <string name="my_allergies">My allergies</string>
+    <string name="my_allergies_hint">You’ll see a warning on recipes and shopping items that contain these.</string>
+    <string name="my_diets">My diets</string>
+    <string name="my_diets_hint">Recipes that don’t match all selected diets are flagged.</string>
+    <string name="profile_disclaimer">Hints only — always double-check product labels. Not medical advice.</string>
+    <string name="share_profile_title">Share or import a profile</string>
+    <string name="share_profile_hint">Move your allergy and diet selections to another device: share the code here, scan it there.</string>
+    <string name="share_profile">Share via QR</string>
+    <string name="scan_profile">Scan a profile</string>
+    <string name="import_profile_title">Import profile?</string>
+    <string name="import_profile_message">This replaces your current allergy and diet selections with the scanned ones.</string>
+    <string name="profile_imported">Profile imported</string>
+    <string name="scan_recipe_on_recipes_tab">Recipe codes are imported on the Recipes tab</string>
+    <string name="scan_profile_on_profile_tab">Profile codes are imported on the Profile tab</string>
+    <string name="theme">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Scanner / QR -->
+    <string name="scan_code">Scan code</string>
+    <string name="scan_hint">Point the camera at a product barcode or a Meal Planner QR code</string>
+    <string name="camera_permission_rationale">Camera permission is needed to scan codes.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="torch">Flashlight</string>
+    <string name="qr_share_title">Share via QR code</string>
+    <string name="qr_share_hint">Let someone scan this code to import “%1$s” into their Meal Planner.</string>
+    <string name="qr_too_large">This recipe is too long for a QR code. Try shortening the instructions.</string>
+    <string name="import_recipe_title">Import recipe?</string>
+    <string name="import_recipe_message">“%1$s” will be loaded into the editor. Unsaved changes will be lost.</string>
+    <string name="import_label">Import</string>
+    <string name="imported_ok">Recipe loaded — press Save to keep it</string>
+    <string name="recipe_imported">Recipe “%1$s” imported</string>
+    <string name="invalid_code">Unrecognized code</string>
+    <string name="scan_products_in_editor">Product barcodes can be scanned inside a recipe editor</string>
+    <string name="looking_up">Looking up product…</string>
+    <string name="product_added">Added “%1$s”</string>
+    <string name="barcode_not_found_added">Product not in database — added the barcode so you can edit it</string>
+    <string name="lookup_failed">Product lookup failed (offline?)</string>
+    <string name="share_qr">Share image</string>
+
+    <!-- Export / import -->
+    <string name="export_success">Exported to %1$s</string>
+    <string name="export_failed">Export failed</string>
+    <string name="export_file_name">meal-planner-export.json</string>
+    <string name="import_title">Import backup?</string>
+    <string name="import_summary">%1$d recipes · %2$d meal plans · %3$d budgets</string>
+    <string name="import_profile_too">Also replace my allergy &amp; diet profile</string>
+    <string name="import_invalid">Not a valid Meal Planner backup</string>
+    <string name="import_done">Imported: %1$d new, %2$d updated, %3$d plans, %4$d budgets</string>
+
+    <!-- PDF -->
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_recipe_pdf">Export recipe as PDF</string>
+    <string name="export_cookbook_pdf">Export all recipes as PDF</string>
+    <string name="pdf_meal_plan_title">Meal Plan — Week of %1$s</string>
+    <string name="pdf_shopping_list_title">Shopping List — %1$s</string>
+    <string name="pdf_generated_on">Generated %1$s</string>
+    <string name="pdf_nothing_planned">Nothing planned</string>
+    <string name="pdf_serving_line">%1$s · %2$d servings</string>
+    <string name="pdf_cookbook_title">My Recipes</string>
+    <string name="pdf_toc_title">Contents</string>
+    <string name="pdf_contains">Contains: %1$s</string>
+    <string name="pdf_diets">Diets: %1$s</string>
+    <string name="pdf_adapted_for">Adapted for: %1$s</string>
+    <string name="pdf_total_line">Total: %1$s</string>
+    <string name="pdf_budget_line">Budget: %1$s — %2$s</string>
+    <string name="pdf_qr_caption">Scan to import</string>
+
+    <!-- Allergen labels (canonical data keys stay English) -->
+    <string name="allergen_gluten">Gluten</string>
+    <string name="allergen_dairy">Dairy</string>
+    <string name="allergen_eggs">Eggs</string>
+    <string name="allergen_nuts">Nuts</string>
+    <string name="allergen_peanuts">Peanuts</string>
+    <string name="allergen_soy">Soy</string>
+    <string name="allergen_fish">Fish</string>
+    <string name="allergen_shellfish">Shellfish</string>
+    <string name="allergen_sesame">Sesame</string>
+
+    <!-- Diet labels -->
+    <string name="diet_vegetarian">Vegetarian</string>
+    <string name="diet_vegan">Vegan</string>
+    <string name="diet_pescatarian">Pescatarian</string>
+    <string name="diet_gluten_free">Gluten-free</string>
+    <string name="diet_dairy_free">Dairy-free</string>
+    <string name="diet_keto">Keto</string>
+
+    <!-- Plurals -->
+    <plurals name="recipes_count">
+        <item quantity="one">%1$d recipe</item>
+        <item quantity="other">%1$d recipes</item>
+    </plurals>
+    <plurals name="ingredients_count">
+        <item quantity="one">%1$d ingredient</item>
+        <item quantity="other">%1$d ingredients</item>
+    </plurals>
+    <plurals name="servings_count">
+        <item quantity="one">%1$d serving</item>
+        <item quantity="other">%1$d servings</item>
+    </plurals>
+    <plurals name="pdf_recipes_count">
+        <item quantity="one">%1$d recipe</item>
+        <item quantity="other">%1$d recipes</item>
+    </plurals>
+    <plurals name="pdf_items_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="times_planned">
+        <item quantity="one">Planned once</item>
+        <item quantity="other">Planned %1$d times</item>
+    </plurals>
+</resources>
